@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anastasia Kravtsov Web Site</title>
+    <link rel="stylesheet" href="css\HomePageStyle.css"/>
+    <script type="text/javascript">
+    function ChangeGuestName()
+    {
+        document.getElementById("GuestName").innerText = document.getElementById("UserData").value;
+    }
+    </script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="Scripts/ajaxhomepage.js"></script>
+    <script type="text/javascript"></script>
+</head>
+</head>
+<body>
+    <div id="hidediv">
+    <h1> Hello <span id="GuestName">Guest</span>! </h1>
+    </br>
+    Please enter your name down below and press "Enter":
+    </br>
+    <input id="UserData" type="text" onchange="ChangeGuestName()"/>
+    </br>
+    <h2 class="toptext">My Name is Anastasia Kravtsov, I'm 27 years old and living in Ashdod.</h2>
+    <h3 class="toptext">BA in Management Information Systems, has a peripheral vision, 
+    </br>
+        excellent personal communication skills, service oriented, multi-tasking, strategic and professional,
+    </br> 
+        independent, creative, responsible and dedicated to work.
+    </br>
+        Searching for an opportunity to start my career and to realize the potential and acquired knowledge.
+    </h3>
+    <br/>
+    <div>
+    <audio controls autoplay loop>
+        <source src="content\audio\bensound-creativeminds.mp3" type="audio/mpeg"> </audio>
+    </div>
+</div id="hidediv">
+
+<button id="ContactMe">Contact Me</button>
+<button id="MySkills">My Skills</button>
+<button id="HomePage">Home Page</button>
+<div id="getpage"></div>
+    
+</body>
+</html>
