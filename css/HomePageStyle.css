@@ -1,0 +1,50 @@
+body {
+    background-image: url("wallpaper.jpg");
+    background-repeat: repeat-y;
+    background-position: right top;
+    text-align: center;
+}
+
+h1 {
+    text-decoration: underline;
+    letter-spacing: 3px;
+    text-shadow: 3px 2px lightcyan;
+
+}
+
+.toptext{
+    font:  bold 22px Georgia, serif;
+    color: black;
+    text-shadow: 3px 2px lightseagreen;
+}
+div{
+    font-size: 20px;
+}
+
+/* unvisited link */
+div a:link {
+    color: white;
+    text-shadow: 2px 2px darkgreen;
+}
+
+/* visited link */
+div a:visited {
+    color:red;
+}
+
+/* mouse over link */
+div a:hover {
+    color: lightgreen;
+}
+
+/* selected link */
+div a:active {
+    color: blue;
+}
+
+#getpage{
+    position: relative;
+    width: 100%;
+    margin:0 auto;
+    line-height: 1.4em;
+}
